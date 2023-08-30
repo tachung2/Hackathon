@@ -9,6 +9,36 @@ import TopGames from './TopGames';
 import { useLocation } from 'react-router-dom';
 import HeadersV12 from "./components/HeadersV12";
 import Nav from "./pages/Nav";
+import logo from './logo.svg';
+import './App.css';
+
+import {render} from 'react-dom';
+import React, { Component } from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
+
+import { login, register, genre, edit } from './inc'
+
+class App extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+
+        }
+    }
+
+render() {
+    return(
+        <div className="App">
+            <BrowserRouter>
+                <Route path="/login" component={login} exact/>
+                <Route path="/register" component={register} />
+                <Route path="/genre" component={genre} />
+                <Route path="/edit" component={edit} />
+            </BrowserRouter>
+        </div>
+        )
+    }
+}
 
 function App() {
   const action = useNavigationType();
