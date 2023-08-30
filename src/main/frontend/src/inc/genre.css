@@ -1,0 +1,73 @@
+/* 전체 페이지 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* 상단 네비바 스타일 */
+header {
+    background-color: #white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.logo img {
+    width: 40px; /* 로고 이미지 크기 조절 */
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.logo p {
+    margin-top: 18px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-top: 25px;
+}
+
+nav li {
+    margin-right: 20px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* 테이블 형식의 사진 목록 스타일 */
+.photo-table {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-left:45px;
+}
+
+.photo-cell {
+    flex: 0 0 calc(25% - 20px); /* 한 줄에 4개의 셀을 배치하려면 25%로 설정 */
+    margin: 5px;
+    border: 0.5px solid;
+}
+
+.photo-cell img {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo {
+    display: flex;
+    align-item: center;
+}
+header div p {
+    color: black;
+    text-align: center;
+    margin-left: 12px;
+}
