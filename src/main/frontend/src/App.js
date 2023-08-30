@@ -16,7 +16,7 @@ import {render} from 'react-dom';
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-import { login, register, genre, edit } from './inc'
+import { login, register, genre, edit, account } from './inc'
 
 class App extends Component {
     constructor(props) {
@@ -34,6 +34,7 @@ render() {
                 <Route path="/register" component={register} />
                 <Route path="/genre" component={genre} />
                 <Route path="/edit" component={edit} />
+                <Route path="/account" component={account} />
             </BrowserRouter>
         </div>
         )
