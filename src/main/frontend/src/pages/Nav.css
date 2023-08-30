@@ -1,0 +1,93 @@
+.vector-icon {
+  width: 76.85px;
+  height: 56px;
+}
+.recogame,
+.vector-icon {
+  position: relative;
+}
+.logo-style-guide-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.div {
+  position: relative;
+  line-height: 18px;
+}
+.vector-icon1 {
+  position: relative;
+  width: 13.07px;
+  height: 7.23px;
+}
+.div1,
+.sections {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.sections {
+  justify-content: flex-end;
+  gap: var(--gap-14xl);
+  text-align: center;
+  font-size: var(--text-single-200-regular-size);
+  color: var(--color-darkslateblue-100);
+  font-family: var(--text-single-200-regular);
+}
+.added,
+.menu {
+  justify-content: flex-start;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xl);
+}
+.added {
+  width: 141px;
+  height: 18px;
+  gap: var(--gap-2xs);
+}
+.added,
+.additional,
+.head-contents {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.additional {
+  width: 216.1px;
+  height: 50px;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+  text-align: center;
+  font-size: var(--text-single-200-regular-size);
+  color: var(--color-dimgray-200);
+  font-family: var(--text-single-200-regular);
+}
+.head-contents {
+  width: 1306.24px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.nav {
+  position: relative;
+  background-color: var(--neutral-colors-white);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xl) 67px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-inter);
+}
